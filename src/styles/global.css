@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    *:is(h1, h2, h3, h4, h5, h6) {
+        @apply scroll-mt-28 md:scroll-mt-16;
+    }
+
+    .mobile-sidebar-toggle {
+        @apply left-0 z-20 !block min-w-full overflow-y-auto bg-sky-50 dark:bg-slate-800;
+    }
+}
+
+.slug {
+    @apply absolute -ml-2 -left-6 top-2 dark:fill-gray-50;
+}

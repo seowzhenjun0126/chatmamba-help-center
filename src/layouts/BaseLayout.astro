@@ -1,0 +1,32 @@
+---
+const { pageTitle } = Astro.props;
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{pageTitle} - ChatMamba Knowledge Base</title>
+    </head>
+    <body class="min-h-screen">
+        <Header />
+        <main class="min-h-[calc(100vh_-_64px_-_88px)] bg-sky-50 dark:bg-slate-800 dark:text-gray-50">
+            <slot />
+        </main>
+        <Footer />
+    </body>
+</html>
+
+<script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+        localStorage.theme = 'dark';
+    } else {
+        document.documentElement.classList.remove('dark')
+        localStorage.theme = 'light';
+    }
+</script>
