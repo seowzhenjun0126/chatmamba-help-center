@@ -10,7 +10,7 @@ import categories from '../nav';
 
 const { frontmatter, headings } = Astro.props;
 const { minutesRead } = Astro.props.frontmatter;
-const { pathname } = Astro.url;
+const pathname = Astro.url.pathname.replace(/\/$/, "");
 
 const articles = categories.map(category => category.articles).flat();
 const currentArticleIndex = articles.findIndex(article => `/articles/${article.id}` === pathname);

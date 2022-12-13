@@ -1,7 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
 import categories from '../nav';
-const { pathname } = Astro.url;
+const pathname = Astro.url.pathname.replace(/\/$/, "");
 ---
 
 <p class="px-2 mb-6 text-xl font-semibold">Guides</p>
