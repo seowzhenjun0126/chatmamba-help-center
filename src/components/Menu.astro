@@ -1,0 +1,28 @@
+---
+import { Icon } from 'astro-icon';
+import categories from '../nav';
+const { pathname } = Astro.url;
+---
+
+<p class="px-2 mb-6 text-xl font-semibold">Guides</p>
+<ul class="flex flex-col gap-8 pr-2 overflow-y-auto text-sm">
+    {categories.map(category => <li>
+        <details open>
+            <summary class="flex items-center gap-2 px-2 mb-2 list-none cursor-pointer">
+                <h2 class="font-semibold">{category.name}</h2>
+                <Icon name="ic:baseline-expand-more" class="w-5 h-5 dark:text-gray-300"/>
+            </summary>
+            <ul class="flex flex-col">
+                {category.articles.map(article => <li>
+                    <a href={`/articles/${article.id}`} class:list={[
+                        "px-3 py-1.5 block",
+                        {
+                            'text-gray-900 bg-sky-100 dark:text-gray-50 dark:bg-sky-700 font-semibold': `/articles/${article.id}` === pathname,
+                            'text-gray-500 hover:bg-sky-100 dark:text-gray-400 dark:hover:bg-sky-600/50': `/articles/${article.id}` !== pathname
+                        }
+                    ]}>{article.title}</a>
+                </li>)}
+            </ul>
+        </details>
+    </li>)}
+</ul>

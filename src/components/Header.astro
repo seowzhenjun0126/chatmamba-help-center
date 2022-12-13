@@ -1,0 +1,24 @@
+---
+import Logo from '../components/Logo.astro';
+import ThemeChanger from '../components/ThemeChanger.vue';
+import HeaderMenu from '../components/HeaderMenu.vue';
+import { Icon } from 'astro-icon';
+---
+<header class="sticky top-0 z-10 h-16 border-b bg-sky-50 dark:bg-slate-800 dark:text-gray-50 dark:border-b-slate-600">
+    <nav class="flex items-center justify-between w-full h-full px-4 md:px-8">
+        <Logo />
+        <div class="flex items-center gap-4">
+            <HeaderMenu class="md:hidden" client:load>
+                <Icon name="ic:outline-menu" class="w-5 h-5" slot="header-menu-icon"/>
+            </HeaderMenu>
+            <ThemeChanger class="hidden md:flex" client:load>
+                <Icon name="ic:baseline-light-mode" class="w-5 h-5" slot="light-mode"/>
+                <Icon name="ic:baseline-dark-mode" class="w-5 h-5" slot="dark-mode"/>
+            </ThemeChanger>
+            <a target="_blank" href="https://chatmamba.com/login" class="items-center hidden gap-2 px-4 py-2 transition border rounded md:flex border-black/10 hover:bg-gray-200 dark:border-white/10 dark:hover:bg-gray-500">
+                Login
+                <Icon name="ic:baseline-login" class="w-5 h-5"/>
+            </a>
+        </div>
+    </nav>
+</header>

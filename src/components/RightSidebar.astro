@@ -1,0 +1,11 @@
+---
+import { MarkdownHeading } from 'astro';
+import TOC from './TOC.vue';
+
+type Props = {
+	headings: MarkdownHeading[];
+};
+const { headings } = Astro.props as Props;
+---
+
+<TOC client:load headings={headings}/>
