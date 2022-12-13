@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Organizing your Data'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'crm'
 ---
 
 To overcome the problem of not being able to find your customer data as your customer base grows, ChatMamba CRM provides a powerful search engine out of the box that can quickly filter, sort, and search your data according to your preference. You can also manage the columns' visibility to show only the relevant columns to make your table less cluttered.

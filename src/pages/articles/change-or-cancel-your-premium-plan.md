@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Change or cancel your Premium Plan'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'pricing'
 ---
 
 ## Change your Premium Plan
@@ -17,7 +14,7 @@ To change your Premium Plan :
 
 1. Go to [Subscriptions & billing](https://chatmamba.com/settings/billing) page
 2. On the right hand side of the page you wish to unsubscribe, click the action button. Then, click **Upgrade subscription**
-![Some description](/public/kb//change-or-cancel-your-premium-plan/upgrade-subscription.jpg)
+![Some description](/kb//change-or-cancel-your-premium-plan/upgrade-subscription.jpg)
 3. You will be directed to the pricing plan page. Here, you can select the Premium Plan combination that suits your need.
 4. After selecting your plan, you will be directed to checkout page. here you can :
   a. Select if you want to be billed monthly or annually
@@ -43,7 +40,7 @@ To cancel your Premium Plan :
 
 1. Go to [Subscriptions & billing](https://chatmamba.com/settings/billing) page
 2. On the right hand side of the page you wish to unsubscribe, click the action button. Then, click **Cancel subscription**
-![Some description](/public/kb//change-or-cancel-your-premium-plan/cancel-subscription.jpg)
+![Some description](/kb//change-or-cancel-your-premium-plan/cancel-subscription.jpg)
 3. When you cancel your subscription, ChatMamba will stop renewing the subscription and change the page to Free Plan when the subscription or trial period ends.
 4. You can reactivate your subscription before the subscription period ends. Reactivating your subscription means ChatMamba will continue to renew the subscription when the period ends.
 

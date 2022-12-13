@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Automating Leads Distribution'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'crm'
 ---
 
 Being able to automatically distribute leads from your ad campaigns to your agents means that:

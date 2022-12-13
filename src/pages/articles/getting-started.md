@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Getting Started'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'crm'
 ---
 
 ChatMamba CRM is a feature-packed application that can look complicated when getting started. Therefore, this article serves as an introductory guide to walk you through the basics of the system.
@@ -18,7 +15,7 @@ Getting your notification settings right ensures you always stay informed during
 
 Currently, 2 notification channels are supported, namely email and Telegram. We **recommend using Telegram** as your main notification channel as the deliverability is more reliable
 
-![Some description](/public/kb/getting-started/notification-settings.png)
+![Some description](/kb/getting-started/notification-settings.png)
 
 ### Connecting to Telegram
 
@@ -29,7 +26,7 @@ To connect your Telegram account to ChatMamba CRM:
 3. Click **Start** at the bottom of the conversation.
 4. You will see a "Bot is configured successfully" message that indicates you have connected your Telegram account.
 
-![Some description](/public/kb/getting-started/connecting-to-telegram.jpeg)
+![Some description](/kb/getting-started/connecting-to-telegram.jpeg)
 
 ## Adding, Assigning, and Updating lead
 
@@ -44,13 +41,13 @@ To add lead to the system:
 1. Go to **Source Leads**
 2. Click **New Data → Add Data**
 3. Fill in Name, Phone, and Email fields.
-![Some description](/public/kb/getting-started/add-new-data-pt-1.png)
+![Some description](/kb/getting-started/add-new-data-pt-1.png)
 4. Then, assign the lead to you
-![Some description](/public/kb/getting-started/add-new-data-pt-2.png)
+![Some description](/kb/getting-started/add-new-data-pt-2.png)
 5. Click **Add Data**.
 6. Congratulations! You have added and assigned your first lead. You should be seeing something similar to the table below.
 
-![Some description](/public/kb/getting-started/source-leads.png)
+![Some description](/kb/getting-started/source-leads.png)
 
 > [!tip]
 > Since you are adding and assigning the lead to yourself, you will not receive any notification. However, there will be notifications when others assign leads to you.
@@ -61,7 +58,7 @@ Once you have called/follow up with your customer, you should write down the upd
 
 1. Go to **Leads Progress**
 2. You will see the lead that you have just assigned. This looks very similar to **Source Leads** where you have just added your first lead. However, there are **not the same**. You should update all your data in **Lead Progress**.
-![Some description](/public/kb/getting-started/lead-progress.png)
+![Some description](/kb/getting-started/lead-progress.png)
 
 > [!tip]
 > You should always update your data in Lead Progress, not Source Leads. To understand the difference between the two, see [this article](/articles/difference-between-source-lead-and-assigned-lead).

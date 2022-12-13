@@ -107,7 +107,6 @@ export default [
             {
                 id: 'pricing-plans',
                 title: 'Pricing Plans'
-
             },
             {
                 id: 'chatmambas-refund-policy',

@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Pricing Plans'
 pubDate: 2022-11-15
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'pricing'
 ---
 
 ## Current Pricing Model

@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "ChatMamba's refund policy"
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'pricing'
 ---
 
 If you'd like to request for refund, contact [ChatMamba support](https://m.me/ChatMamba) through our Facebook Page Messenger.

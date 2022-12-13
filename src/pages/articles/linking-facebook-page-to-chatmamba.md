@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Linking Facebook Page to ChatMamba'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'getting-started'
 ---
 
 To start using ChatMamba with your Facebook Page, you will first need to link the Facebook page to ChatMamba.

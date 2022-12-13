@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Introduction to ChatMamba'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'getting-started'
 ---
 
 ChatMamba is an internet marketing automation software aiming to help you, as a marketers, to grow your marketing funnel, by eliminating manual repetitive work such as replying to Facebook Page comments and extracting lead from Facebook Leadgen form.

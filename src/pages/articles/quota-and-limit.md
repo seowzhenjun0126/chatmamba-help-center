@@ -2,9 +2,6 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Quota and limit'
 pubDate: 2022-12-06
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
-category: 'crm'
 ---
 
 ChatMamba Comment Autoreply and Lead Extraction both come with quota, depending on the plan that your Facebook Page is subscribed to.
