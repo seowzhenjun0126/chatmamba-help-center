@@ -1,5 +1,6 @@
 # build output
 dist/
+public/
 
 # dependencies
 node_modules/
@@ -21,3 +22,5 @@ pnpm-debug.log*
 *.env
 # Local Netlify folder
 .netlify
+
+.firebase
