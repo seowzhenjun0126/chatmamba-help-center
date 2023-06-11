@@ -2,9 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import categories from '../nav';
 import { Icon } from 'astro-icon';
-const pageTitle = "Home";
+const pageTitle = 'ChatMamba Help Center';
+const description = '';
 ---
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} description={description}>
 	<div class="max-w-2xl p-8 mx-auto">
 		<div class="flex flex-col gap-4 mb-8">
 			<h1 class="text-4xl font-bold text-center md:text-5xl">ChatMamba Help Center</h1>
@@ -15,7 +16,7 @@ const pageTitle = "Home";
 				<a href={`/categories/${category.id}`} class="text-2xl font-bold">{category.name}</a>
 				<ul class="flex flex-col gap-1">
 					{category.articles.slice(0, 3).map(article => <li>
-						<a href={`/articles/${article.id}`} class="underline decoration-gray-400">{article.title}</a>
+						<a href={`/en/articles/${article.id}`} class="underline decoration-gray-400">{article.title}</a>
 					</li>)}
 				</ul>
 				{category.articles.length > 3 &&

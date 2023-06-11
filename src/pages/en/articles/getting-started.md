@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Getting Started'
 pubDate: 2022-12-06
 ---
@@ -61,7 +61,7 @@ Once you have called/follow up with your customer, you should write down the upd
 ![Some description](/kb/getting-started/lead-progress.png)
 
 > [!tip]
-> You should always update your data in Lead Progress, not Source Leads. To understand the difference between the two, see [this article](/articles/difference-between-source-lead-and-assigned-lead).
+> You should always update your data in Lead Progress, not Source Leads. To understand the difference between the two, see [this article](/en/articles/difference-between-source-lead-and-assigned-lead).
 
 3. Click on the phone number and change it to some other number. Congratulations! You just updated your first data.
 4. Your updates are saved automatically and are synced across your laptop, phone, or tablet when you visit the website.

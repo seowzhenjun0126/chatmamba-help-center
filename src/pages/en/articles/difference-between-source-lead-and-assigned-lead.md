@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Difference Between Source Lead And Assigned lead'
 pubDate: 2022-12-06
 ---

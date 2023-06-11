@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Transferring Premium Plan to another page'
 pubDate: 2022-12-06
 ---

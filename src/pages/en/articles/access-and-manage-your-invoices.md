@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Access and manage your invoices'
 pubDate: 2022-12-06
 ---

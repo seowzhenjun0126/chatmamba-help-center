@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Adding Data to CRM System'
 pubDate: 2022-12-06
 ---

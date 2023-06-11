@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Linking Facebook Page to ChatMamba'
 pubDate: 2022-12-06
 ---
@@ -51,4 +51,4 @@ A Facebook page is only allowed to linked to ChatMamba once, regardless whether 
 
 In this case, you cannot link to the Facebook Page again. However, you can ask the person who has linked the page to share access to you.
 
-See [this article](/articles/managing-your-facebook-page#inviting-new-member) to learn how to share access of a page to another ChatMamba user.
+See [this article](/en/articles/managing-your-facebook-page#inviting-new-member) to learn how to share access of a page to another ChatMamba user.

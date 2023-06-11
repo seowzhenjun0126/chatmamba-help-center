@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Setting Up ChatMamba Lead Extraction'
 pubDate: 2022-12-06
 ---

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Managing your Facebook Page'
 pubDate: 2022-12-06
 ---
@@ -19,11 +19,9 @@ ChatMamba allows multiple users to manage a Facebook Page together. To do that, 
 ### Inviting new member
 
 1. Here, you can choose what permission you want to share to this user. The permission is granular, meaning that you can share only certain feature (e.g. only Autoreply) to the user. Each permission is then further breakdown into 3 parts, as shown below :
-
-- VIEW - Member can view all configurations of the feature
-- EDIT - Member can create, edit or delete configuration of the feature
-- SHARE - Member can invite other user to access the feature
-
+    - VIEW - Member can view all configurations of the feature
+    - EDIT - Member can create, edit or delete configuration of the feature
+    - SHARE - Member can invite other user to access the feature
 2. After filling in user email address and selecting the permissions you want to share, invite the user.
 
 ### Updating member permission

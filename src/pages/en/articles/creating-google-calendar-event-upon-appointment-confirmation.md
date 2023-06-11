@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: 'Creating Google Calendar Event Upon Appointment Confirmation'
 pubDate: 2022-12-06
 ---
