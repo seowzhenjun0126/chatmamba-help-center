@@ -15,7 +15,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, "");
 const articles = categories.map(category => category.articles).flat();
 const currentArticleIndex = articles.findIndex(article => `/en/articles/${article.id}` === pathname);
 ---
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout pageTitle={frontmatter.title} description={frontmatter.description}>
     <div class="relative flex px-4 pb-4">
         <aside id="left-sidebar" class="fixed flex-col p-4 w-72 h-[calc(100%_-_64px)] hidden md:flex">
             <Menu></Menu>
