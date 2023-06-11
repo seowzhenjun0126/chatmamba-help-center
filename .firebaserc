@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "chat-mamba-prod"
+  },
+  "targets": {
+    "chat-mamba-prod": {
+      "hosting": {
+        "help": [
+          "chat-mamba-help-center"
+        ]
+      }
+    }
+  }
+}
