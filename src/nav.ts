@@ -78,6 +78,11 @@ export default [
                 title: 'Adding Time Bomb to your leads'
 
             },
+            {
+                id: 'delayed-distribution',
+                title: 'Schedule Leads Distribution'
+
+            }
             
         ]
     },
